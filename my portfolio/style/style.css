@@ -14,6 +14,12 @@ header{
     background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
 }
+.container{
+        width: 71%;
+    max-width: 1140px;
+    margin:0 auto;
+
+}
 .color-orenge{
     color: #FD6E0A;
 }
@@ -22,9 +28,6 @@ header{
     font-weight: 900px;
 }
 nav{
-    width: 71%;
-    max-width: 1140px;
-    margin:0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,9 +93,6 @@ nav ul a{
 }
 
 #about .about-container{
-    width:71%;
-    max-width: 1140px;
-    margin:0 auto;
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
@@ -129,12 +129,7 @@ nav ul a{
 #skills , #about ,#resume{
     padding-top: 130px;
 }
-.skills-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
 
-}
 .skill-box{
     display: flex;
     gap:24px;
@@ -160,9 +155,7 @@ nav ul a{
     
 }
 .resume-container{
-    width:71%;
-    max-width:1140px;
-    margin:113px auto 0;
+    margin-top:113px;
     display: flex;
     gap: 24px;
 }
@@ -213,9 +206,6 @@ footer{
     padding: 130px 0;
 }
 .footer-container{
-    width:71%;
-    max-width: 1140px;
-    margin:0 auto;
     display: flex;
     gap:116px;
 }
